@@ -1,0 +1,25 @@
+{
+  "name": "lab8",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Limoney/class-web-apps-1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Limoney/class-web-apps-1/issues"
+  },
+  "homepage": "https://github.com/Limoney/class-web-apps-1#readme",
+  "devDependencies": {
+    "laravel-mix": "^6.0.49",
+    "ts-loader": "^9.4.2",
+    "typescript": "^4.9.3"
+  },
+  "description": ""
+}

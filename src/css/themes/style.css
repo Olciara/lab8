@@ -1,0 +1,125 @@
+.strona{
+    font-family: 'Oswald', sans-serif;
+    color:var(--grey);
+    min-height:100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--white);
+}
+body{
+    padding:0;
+    margin: 0;
+}
+:root{ 
+    /* zmienne w css */
+    --yellow: #eee6c4;
+    --red: #fe0002;
+    --black: #050505;
+    --white: #f7f7f7;
+    --dred: #ae0303; 
+}
+.naglowek{
+    background-color: var(--dred);
+    height:100px;
+    padding:10px;
+    padding-left: 60px;
+}
+.logo{
+    height:90%;
+}
+.meat{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
+.navigacja{
+    margin-left: 30px;
+    color:var(--white);
+    width: 239px;
+    max-width: 239px;
+    height: 490px;
+    max-height: 490px;
+    background-image:url(../../../card.png);
+    flex-grow: 1;
+    padding: 15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.content{
+    flex-grow: 1;
+    padding-left:100px;
+    padding-right:40px;
+}
+.box{
+    border: 20px dotted white;
+    padding: 10px;
+    flex-grow: 1;
+    display: flex;
+  }
+.inner-box{
+    background-color: white;
+    padding: 10px;
+    flex-grow: 1;
+    padding: 40px;
+}
+.outside-box{
+    width: 1000px;
+    background-color: black;
+    padding: 10px;
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.box-content{
+    display:flex;
+    align-items: center;
+    gap:10px;
+}
+.imag{
+    width:200px;
+    height: 300px;
+    min-width: 200px;
+}
+.imag img, .ad img{
+    width:100%;
+    height:100%;
+    object-fit: contain;
+}
+.ad{
+    background-color: var(--black);
+    margin-right: 40px;
+    width:230px;
+    height: 400px;
+    margin-top: 40px;
+    padding:0%;
+}
+.stopa{
+    background-color: var(--dred);
+    /* height: 100px; */
+    color:var(--dpink);
+    padding-top:80px;
+    padding-left: 10px;
+}
+.nava{
+    margin-top:20px;
+    padding: 0px;
+}
+
+.guzik{
+    margin-bottom: 30px;
+    text-align: center;
+    font-size:20px;
+}
+a{
+    color:var(--white);
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px){
+    .meat{
+    flex-direction: column;
+    }
+}
+/* .strona  * {
+    border:1px solid red;
+} */

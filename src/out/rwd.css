@@ -1,0 +1,40 @@
+@media screen and (max-width: 1366px)  
+{
+    .meat
+    {
+        justify-content: center;
+        align-items: center;
+    }
+    .ad
+    {
+        margin: 0 0 10px 0;
+    }
+    .navigacja
+    {
+        margin-left: 0;
+    }
+    .outside-box
+    {
+        width: 100%;
+    }
+    .box
+    {
+        flex-direction: column;
+    }
+    .inner-box
+    {
+        padding: 10px;
+    }
+    .box-content
+    {
+        flex-direction: column;
+    }
+    .content
+    {
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+}
